@@ -1,10 +1,62 @@
+#main_nav {
+    margin-top: 0px;   
+    box-shadow: 0px 0px 15px rgb(15, 24, 146);
+}
 
-#main_nav{
+#main_nav * ul{
     
     display: flex;
     justify-content: space-evenly;
+    margin: 0;
+    padding: 20px 0;
 }
 #main_nav ul li{
+    float: left;
     list-style: none;
 
 }
+#main_nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+}
+#section{
+    margin-top: 30px 0;
+}
+.noMargin, Section p:last-child{
+    margin: 0px;
+}
+
+section{
+    margin-top: 0px;
+}
+
+#description {
+    background: lightyellow;
+    padding: 30px;
+}
+
+#estudiantes h3{
+    text-align: center;
+}
+#cat img{
+    border-radius: 25px;
+    max-width: 100%;
+    max-height: 150px;
+}
+footer p {
+    text-align: center;
+}
+.student-card{
+    margin: 20px 0;
+    box-shadow: 0px 0px 5px black;
+}
+@media (min-width:550px){
+    .student-card img{
+        border-radius: 50%;
+        max-width: 120px;
+        max-height: 120px;
+        background-repeat: no-repeat;
+    }
+}
+        
